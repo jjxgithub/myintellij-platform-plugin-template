@@ -15,4 +15,9 @@
         <listener class="com.github.jjxgithub.myintellijplatformplugintemplate.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="Toolkit.Json.CopyAsJsonAction"
+                class="com.github.jjxgithub.myintellijplatformplugintemplate.CopyAsJsonAction" text="CopyAsJsonAction"
+                description="Copy AsJson"/>
+    </actions>
 </idea-plugin>
